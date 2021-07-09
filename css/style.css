@@ -248,3 +248,71 @@ report
 .mb_m {
   margin-bottom: 20px;
 }
+
+コミット、プッシュを忘れずに
+
+提出について
+・出してない人は出してください。
+
+デザインについて(軽く講評)
+・実寸でやるのがいいです(実寸とは)
+・空間を制御しましょう
+・フォントについて考えましょう(自由にフォントは選べない)
+・色について考えましょう
+・修飾について考えましょう
+
+イラストレーターの利用(ハンズオン)
+svgについて
+
+ロゴの差し替え
+・サイズの確認
+・パスの確認
+
+ファイル名の徹底
+パスの理解の復習と実践
+
+
+
+
+
+/*======================================================
+case1
+======================================================*/
+ 
+#case1{
+ border-left: 1px solid #000;
+ margin-left: 30px;
+  }
+ 
+ #case1 li{
+ display: flex;
+ align-items: flex-start;
+ margin-bottom: 14px;
+ }
+ 
+ #case1 li .year{
+ width: 80px;
+ display: flex;
+ align-items: center;
+ }
+ 
+ #case1 li .year::before{
+ content: '';
+ display: block;
+ position: relative;
+ width: 14px;
+ height: 14px;
+ border-radius: 7px;
+ background-color: #ff9a02;
+ left: -7px;
+ margin-right: 5px;
+ }
+ 
+ #case1 li .date{
+ width: 60px;
+ }
+ 
+ #case1 li .content{
+ flex: 1;
+ }
+
